@@ -1,0 +1,59 @@
+:root {
+  --accent: #6366f1;
+  --accent-2: #a5a8ff;
+  --accent-rgb: 99, 102, 241;
+  --on-accent: #0a0a16;
+
+  --bg: #07060c;
+  --bg-2: #0d0c15;
+  --surface: rgba(255, 255, 255, 0.035);
+  --surface-2: rgba(255, 255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.09);
+  --border-strong: rgba(255, 255, 255, 0.15);
+
+  --text: #ecebf5;
+  --text-muted: rgba(236, 235, 245, 0.66);
+  /* 0.5 — минимум для WCAG AA 4.5:1 на --bg и --bg-2 */
+  --text-faint: rgba(236, 235, 245, 0.5);
+
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --font-ui: 'Inter', system-ui, sans-serif;
+
+  --s1: 8px;
+  --s2: 12px;
+  --s3: 24px;
+  --s4: 32px;
+  --s5: 48px;
+  --s6: 64px;
+  --s7: 96px;
+  --s8: 128px;
+
+  --radius-sm: 10px;
+  --radius: 14px;
+  --radius-lg: 22px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow-glow: 0 24px 70px -26px rgba(var(--accent-rgb), 0.6);
+  --maxw: 1180px;
+}
+
+:root[data-theme='light'] {
+  --bg: #f4f3fb;
+  --bg-2: #ffffff;
+  --surface: rgba(20, 18, 40, 0.035);
+  --surface-2: rgba(20, 18, 40, 0.06);
+  --border: rgba(20, 18, 40, 0.1);
+  --border-strong: rgba(20, 18, 40, 0.17);
+
+  --accent: #4f46e5;
+  --accent-2: #6d5ae0;
+  --accent-rgb: 79, 70, 229;
+  --on-accent: #ffffff;
+
+  --text: #14121e;
+  --text-muted: rgba(20, 18, 30, 0.7);
+  /* 0.62 — минимум для AA 4.5:1 на светлом фоне */
+  --text-faint: rgba(20, 18, 30, 0.62);
+  --shadow-glow: 0 24px 60px -28px rgba(var(--accent-rgb), 0.45);
+}

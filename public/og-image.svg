@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="500" y1="520" x2="720" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a5a8ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#07060c"/>
+  <ellipse cx="880" cy="300" rx="360" ry="340" fill="url(#glow)"/>
+
+  <!-- флакон -->
+  <g transform="translate(880 315)">
+    <rect x="-16" y="-190" width="32" height="26" rx="5" fill="url(#g)"/>
+    <rect x="-11" y="-166" width="22" height="16" fill="#8f92f5"/>
+    <path d="M-70 -150 L0 -168 L70 -150 L78 70 Q78 150 0 150 Q-78 150 -78 70 Z" fill="url(#g)" opacity="0.85"/>
+    <path d="M-70 -150 L0 -168 L70 -150 L74 40 L-74 40 Z" fill="#4b4ee0" opacity="0.55"/>
+    <path d="M0 -166 L0 148" stroke="#dfe0ff" stroke-width="1.5" opacity="0.4"/>
+  </g>
+
+  <text x="90" y="250" font-family="Inter, Segoe UI, sans-serif" font-size="26" font-weight="600" letter-spacing="6" fill="#a5a8ff">НИШЕВЫЙ ПАРФЮМ</text>
+  <text x="86" y="380" font-family="Georgia, serif" font-size="150" font-weight="500" letter-spacing="4" fill="#ecebf5">Sable</text>
+  <text x="90" y="452" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="500" fill="rgba(236,235,245,0.7)">Три аромата. Один флакон. 3D-конфигуратор.</text>
+</svg>

@@ -417,7 +417,8 @@ export default function App() {
         <div className="container">
           <div className="footer__brand">Sable</div>
           <p className="footer__text">
-            Демонстрационный проект для портфолио. Бренд вымышлен, продукт не продаётся, форма работает в демо-режиме.
+            © 2026 Sable · Концепт-проект · Дизайн и разработка —{' '}
+            <a href="https://kwork.ru/user/georgy_tech" target="_blank" rel="noopener">Georgy_Tech</a>
           </p>
         </div>
       </footer>
